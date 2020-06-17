@@ -1,0 +1,11 @@
+* Intro
+
+* Demo
+
+#+begin_src emacs-lisp :eval no
+(defun test-function ()
+  (print "hi")                          ; /- print "hi"
+  (setq-local but "why"))               ; |  This is a demo
+                                        ; |  You can print
+                                        ; `- anything you want
+#+end_src
